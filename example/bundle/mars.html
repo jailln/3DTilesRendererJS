@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<meta charset="utf-8"/>
+
+		<title>Dingo Gap Tile Set</title>
+
+		<style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+
+            html {
+                overflow: hidden;
+				font-family: Arial, Helvetica, sans-serif;
+				user-select: none;
+            }
+
+			canvas {
+				image-rendering: pixelated;
+				outline: none;
+			}
+
+			#info {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				text-align: center;
+				padding: 5px;
+				pointer-events: none;
+				line-height: 1.5em;
+			}
+
+			#info, #info a {
+				color: #234;
+			}
+
+			#info a {
+				pointer-events: all;
+			}
+        </style>
+      <script type="module" crossorigin src="./assets/mars-D-Q1-Rp5.js"></script>
+      <link rel="modulepreload" crossorigin href="./assets/three.module-llkpyLgW.js">
+      <link rel="modulepreload" crossorigin href="./assets/lil-gui.module.min-DGepGIYL.js">
+      <link rel="modulepreload" crossorigin href="./assets/EllipsoidRegionHelper-BOlAtfkY.js">
+      <link rel="modulepreload" crossorigin href="./assets/OrbitControls-RvIyFQIt.js">
+      <link rel="modulepreload" crossorigin href="./assets/FlyOrbitControls-DNxJiSoh.js">
+      <link rel="modulepreload" crossorigin href="./assets/readMagicBytes-C5ZyfJzm.js">
+      <link rel="modulepreload" crossorigin href="./assets/LoaderBase-QLlipkOW.js">
+      <link rel="modulepreload" crossorigin href="./assets/GLTFLoader-KDqsLDsn.js">
+      <link rel="modulepreload" crossorigin href="./assets/B3DMLoader-BbySC5wb.js">
+      <link rel="modulepreload" crossorigin href="./assets/PNTSLoader-e5Dx7bf2.js">
+      <link rel="modulepreload" crossorigin href="./assets/I3DMLoader-DX535fGk.js">
+      <link rel="modulepreload" crossorigin href="./assets/CMPTLoader-BdZwSK3N.js">
+      <link rel="modulepreload" crossorigin href="./assets/GLTFExtensionLoader-bnHC9qPo.js">
+      <link rel="modulepreload" crossorigin href="./assets/TilesRenderer-COIzxhkT.js">
+    </head>
+    <body>
+		<div id="info">
+			Dingo Gap site reconstructed from multiple sols of Curiosity Rover and Mars Reconnaissance Orbiter images.
+			<br/>
+			See more information <a href="https://github.com/NASA-AMMOS/3DTilesSampleData/tree/master/msl-dingo-gap">here</a>.
+		</div>
+    </body>
+</html>
